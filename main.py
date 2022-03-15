@@ -30,6 +30,6 @@ while True:
         a = datetime.datetime.now()
         log_failure(str(a))
         print("failure logged | time: " + str(a))
-    time.sleep(5)
+    time.sleep(5) # change this to whatever time (in seconds) you want to wait before doing the next ping check
 
 
